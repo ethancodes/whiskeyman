@@ -1,0 +1,49 @@
+.jumbotron {
+    background-color: darkgoldenrod;
+}
+.jumbotron .container {
+    max-width: 800px;
+    color: white;
+}
+
+
+.intro .container,
+.other-services .container,
+.footer .container {
+    max-width: 800px;
+}
+
+.img {
+    margin: 3% 0;
+    text-align: center;
+    max-height: 300px;
+    overflow: hidden;
+}
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+
+.other-services {
+    margin-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+.footer .container {
+}
+.footer .container p {
+    margin: 0;
+    color: white;
+}
+.footer .container p a {
+    color: white;
+    font-weight: bold;
+}
